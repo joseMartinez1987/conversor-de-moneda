@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Convertido de moneda</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		 <style>
+		 	#result_dolar{
+		 		margin-left:50px;
+		 	}
+		 	#result_euro {
+		 		margin-left:50px;
+		 	}
+		 </style>
+
+	</head>
+	<body>
+	<div class="container">
+
+	<table class="table table-striped">
+		<tr>
+			<th>Dolar</th>
+			<th id="dolar"></th>
+		</tr>
+		<tr>
+			<th>Euro</th>
+			<th id="euro"></th>
+		</tr>
+		<tr>
+			<th>UF</th>
+			<th id=uf></th>
+		</tr>
+		<tr>
+			<th>UTM</th>
+			<th id="utm"></th>
+		</tr>
+	</table>
+	<form action="" id="myform">
+			 <h1 class="text-center">Conversor de peso a dolares y Euro</h1>
+		<table>
+		<tr>
+			<th></th>
+			<th class="text-center">Dolar</th>
+			<th class="text-center">Euro</th>
+		</tr>
+		<tr>
+			<th>
+				<input type="text" id="monto" placeholder="ingrese monto en pesos">
+				<input type="submit" >
+			</th> 
+			<th>
+				<input type="text" id="result_dolar">	
+			</th>
+			<th>
+				<input type="text" id="result_euro" >	
+			</th>
+		</tr>
+		</table>
+	</form>
+	</div>
+		
+	<script src="js/js.js"></script>
+	</body>
+</html>
